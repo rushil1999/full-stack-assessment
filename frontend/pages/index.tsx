@@ -12,9 +12,10 @@ const LandingPage: NextPage = () => {
         <NavBar/>
         <SubNavBar/>
         <div style={{paddingBottom: '440px'}}></div>
-        <div className={styles['faq-style-wrapper']}>
-        <FaqSection/>
+        
       </div>  
+      <div className={styles['faq-style-wrapper']}>
+        <FaqSection/>
       </div>
       
       
