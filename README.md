@@ -10,8 +10,8 @@
 
 ## Few points
 1. I have used React external libraries for some functinalities 
-   - For rich text in answers in FAQ section react-markdown has been used as the backend provides tet in `[text](link)` format
-   - For FAQ dropdown section, react-faq-component has been used
+   - For rich text in answers in FAQ section [react-markdown](https://www.npmjs.com/package/react-markdown) has been used as the backend provides text in `[text](link)` format
+   - For FAQ dropdown section, [react-faq-component](https://github.com/binodswain/react-faq-component#readme) has been used
 2. Pure HTML/CSS has been used in some parts for UI
 3. Comments are added in code for explanation
 4. Have tried to follow best practices while writing code and tried to duplicate the original site as much as possible in the given time
