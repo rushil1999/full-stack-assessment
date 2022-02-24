@@ -2,8 +2,9 @@
 .subNavBar {
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
-  position: absolute;
+  padding-top: 15px;
+  z-index: 100;
+  position: fixed;
   width: 100%;
 }
 

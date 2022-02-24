@@ -8,9 +8,9 @@ const LandingPage: NextPage = () => {
   return(
     <div>
       
-      <div className={styles.outerSection}>
         <NavBar/>
         <SubNavBar/>
+      <div className={styles.outerSection}>
         <div style={{paddingBottom: '440px'}}></div>
         
       </div>  

@@ -5,6 +5,9 @@
   background-color: #C86C61; 
   color:white;
   height: 40px;
+  position: static;
+  width: 100%;
+  z-index: 100;
 
 }
 
