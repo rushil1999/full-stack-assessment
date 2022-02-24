@@ -1,0 +1,26 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  border: 0; 
+  background-color: #C86C61; 
+  color:white;
+  height: 40px;
+
+}
+
+.navIcons {
+  display: flex;
+  margin-left: 15px;
+  column-gap: 15px;
+  padding-top: 7px;
+  align-items: center;
+}
+
+.navOptions {
+  display: flex;
+  column-gap: 20px;
+  margin-right: 10px;
+  padding-top: 5px;
+  align-items: center;
+  font-size: smaller;
+}
