@@ -23,11 +23,10 @@ type FaqApiResponse = { //Type for the fetched response
 
 const getAllFaqs: NextApiHandler = async (_, res: NextApiResponse) => {
   var faqList: Array<Faq> = []; 
-  console.log(process.env.BACKEND_URL); //Not working...
+  // console.log(process.env.BACKEND_URL); //Not working...
   try{
     const response: Response = await fetch(FAQ_BASEURL);
     const parsedResponse = await response.json();
-    console.log(parsedResponse);
   
     //Extracting the information that is needed for rendering the component
     faqList = parsedResponse.data.map((e: FaqApiResponse)=>{
